@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Mashup</title>
+    <link rel="stylesheet" href="/style.css"/>
+    </head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Mashup Music Generator</h2>
+      <p class="subtitle">Give Singer Name and Get his/her Mashup</p>
+
+      <form id="mashup-form">
+        <label>Singer Name</label>
+        <input type="text" name="singer" required />
+
+        <label>Number of Videos (Minimum 10)</label>
+        <input type="number" name="videos" min="10" required />
+
+        <label>Duration of Each Video (Minimum 20 sec)</label>
+        <input type="number" name="duration" min="20" required />
+
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="example@gmail.com" required />
+
+        <button type="submit">Get Mashup</button>
+      </form>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
